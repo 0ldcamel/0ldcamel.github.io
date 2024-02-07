@@ -4,7 +4,7 @@ html {
 }
 
 .right-links {
-    text-align: right;
+    float: right;
     color: red;
 }
 
