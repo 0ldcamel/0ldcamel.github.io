@@ -12,3 +12,7 @@ html {
     text-align: right;
     color: green;
 }
+
+h1 {
+    display: inline;
+}
