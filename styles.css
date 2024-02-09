@@ -16,3 +16,8 @@ html {
 h1 {
     display: inline;
 }
+
+.emphasized {
+    font-style: italic;
+    text-indent: 20px;
+}
