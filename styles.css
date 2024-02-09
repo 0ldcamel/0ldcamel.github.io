@@ -4,18 +4,18 @@ html {
     margin: 10px;
 }
 
-.right-links {
-    float: right;
-    color: red;
-}
-
-.question {
-    text-align: right;
-    color: green;
-}
-
 h1 {
     display: inline;
+}
+
+h1, h2, h3, h4 {
+    line-height: 0.75em;
+}
+
+.border {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding-left: 20px;
 }
 
 .emphasized {
@@ -23,19 +23,12 @@ h1 {
     padding-left: 20px;
 }
 
-h1, h2, h3, h4 {
-    line-height: 0.75em;
-}
-
 .pad-left {
     padding-left: 20px;
 }
 
-.border {
-    border: 1px solid gray;
-    border-collapse: collapse;
-    padding-left: 20px;
-
+.right-links {
+    float: right;
 }
 
 .under {
