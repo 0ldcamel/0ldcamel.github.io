@@ -1,6 +1,7 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    margin: 10px;
 }
 
 .right-links {
@@ -20,4 +21,8 @@ h1 {
 .emphasized {
     font-style: italic;
     padding-left: 20px;
+}
+
+h1, h2, h3, h4 {
+    line-height: 0.75em;
 }
