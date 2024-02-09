@@ -30,3 +30,14 @@ h1, h2, h3, h4 {
 .pad-left {
     padding-left: 20px;
 }
+
+.border {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding-left: 20px;
+
+}
+
+.under {
+    text-decoration: underline gray;
+  }
