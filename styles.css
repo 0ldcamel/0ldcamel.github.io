@@ -45,21 +45,21 @@ table, th, td {
     line-height: 1em;
     padding-left: 20px;
     font-family: Monospace;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 .tab2 {
     line-height: 1em;
     padding-left: 40px;
     font-family: Monospace;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 .tab0 {
     line-height: 1em;
     font-family: Monospace;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 .under {
     text-decoration: underline gray;
