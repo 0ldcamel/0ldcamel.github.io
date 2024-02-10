@@ -1,7 +1,7 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    margin: 10px;
+    margin-left: 10px;
 }
 
 h1 {
@@ -9,7 +9,13 @@ h1 {
 }
 
 h1, h2, h3, h4 {
-    line-height: 0.75em;
+    line-height: 1em;
+    margin-bottom: 0.25em;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
 
 table, th, td {
