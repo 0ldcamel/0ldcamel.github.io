@@ -34,23 +34,33 @@ table, th, td {
     padding-left: 20px;
 }
 
+.red {
+    color: red;
+}
+
 .right-links {
     float: right;
 }
 
 .tab1 {
-    line-height: 0.5em;
+    line-height: 1em;
     padding-left: 20px;
     font-family: Monospace;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .tab2 {
-    line-height: 0.5em;
+    line-height: 1em;
     padding-left: 40px;
     font-family: Monospace;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .tab0 {
-    line-height: 0.5em;
+    line-height: 1em;
     font-family: Monospace;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .under {
     text-decoration: underline gray;

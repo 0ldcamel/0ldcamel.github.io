@@ -16,24 +16,27 @@
             <div>
                 <h3>Towers of Hanoi</h3>
                 I find this recursive solution to the Towers of Hanoi is the most elegant solution.
-                <h3>Other notes</h3>
-                <h4>Using min()</h4>
+                <h3>Other notes:</h3>
+                <p>My code vs solution</p>
                 <div>
                     <table>
                         <tr>
-                          <th>Instead of:</th>
-                          <th>Do this:</th>
+                            <th></th>
+                            <th>Instead of:</th>
+                            <th>Do this:</th>
                         </tr>
                         <tr>
-                          <td><p class="tab0">if a > b:</p>
+                            <td><p class="tab0">Using min()</p></td>
+                            <td><p class="tab0">if a > b:</p>
                             <p class="tab1">testValue = b </p>
                             <p class="tab0">else:</p>
                             <p class="tab1"> testValue = a</p></td>
-                          <td><p class="tab0">testValue = min(a, b)</p></td>
+                            <td><p class="tab0">testValue = min(a, b)</p></td>
                         </tr>
                         <tr>
-                            <td><p class="tab0">midIndex = int(len(aStr)/2)</p>
-                            <td><p class="tab0">   midIndex = len(aStr)//2</p></td>
+                            <td><p class="tab0">Using floor division</p></td>
+                            <td><p class="tab0">midIndex = int(len(aStr)<span class="red">/</span>2)</p>
+                            <td><p class="tab0">   midIndex = len(aStr)<span class="red">//</span>2</p></td>
                           </tr>
                       </table>
                 </div>
