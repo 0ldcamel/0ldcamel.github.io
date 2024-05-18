@@ -94,3 +94,7 @@ footer {
     background-color: lightyellow;
     color: black;
   }
+
+  image {
+    max-width: 100px;
+}  
