@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS50W</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <span class="right-links"><a href="index.html">Home</a></span>
+        <span><h1>CS50’s Web Programming with Python and JavaScript</h1></span>
+        
+        <div class="border">
+            <h2>Week 0 - HTML and CSS</h2>
+            <div>
+                Week 0 Lecture is well explained, lot of information though. However, Project 0 is not easy. Here are my notes:
+                <h3>I'm Feeling Lucky</h3>
+                I find this button <button>I'm Feeling Lucky</button> is the most challenging in problem 0.
+                
+                <p>This <a href="https://edstem.org/us/courses/176/discussion/2314189?comment=9874744">answer from Alex B.</a> is key, 
+                    it gives clues to the solution but inn't giving away, so it's copied and pasted below:</p>
+                <div class="emphasized">
+                    There is a query string parameter that sets off the redirect for the "lucky" button. 
+                    It's tricky to find because you don't see the url after redirect. The way to find it is to:
+                    <ul>
+                        <li>open Chrom dev tools</li>
+                        <li>open Network tab</li>
+                        <li>make a "lucky" search</li>
+                    </ul>
+                    One of the requests will be a 302 redirect. If you click on it, it will show you the query string 
+                    parameters including the one you're looking for.
+                </div>
+            </div>
+            <div>
+                <h3>Image Search</h3>
+                <p>This requires some close inspection of the query string in the URL.
+                Initally I thought it was <i>&sclient=img</i> (at the end of URL) but it wasn't. 
+                Next suspects were <i>&sca_esv=...</i> and <i>&sca_upv=1</i>, ...</p>
+
+                <p>Keep trying, you'll eventually find it.</p>
+
+                <p>If you really got stuck, try <a href="https://edstem.org/us/courses/176/discussion/4224030">this.</a>
+                In this case, the CS50 Duck is too helpful, spilt out the full code. I am glad to figured it out before seeing that post.</p>
+            </div>
+        </div>
+        <div class="border">
+            <h2>Week 1 - Git</h2>
+            <div>
+                <h3>Notes</h3>
+                <p>Remember to check from time to time:</p>
+            <ul>
+                <li>git remote -v</li>
+                <li>git remote set-url (remote_name) (remote_url)</li>
+            </ul>
+            </div>
+        </div>
+        <div class="border">
+            <h2>Week 2 - Python</h2>
+            <div>
+                <h3>place holder</h3>
+            </div>
+        </div>
+        <footer>
+            <p>0ld Camel - 2024 - Version 1.0.0<br>
+            <a href="mailto:0ldcamel502@gmail.com">0ldcamel502@gmail.com</a></p>
+          </footer>
+    </body>
+</html>

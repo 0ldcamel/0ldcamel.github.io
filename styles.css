@@ -1,0 +1,96 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+h1 {
+    display: inline;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1em;
+    margin-bottom: 0.25em;
+}
+
+.pindent {
+    text-indent:50px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.border {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding-left: 20px;
+}
+
+.emphasized {
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.func {
+    color: darkorange;
+}
+
+.keywords {
+    color: blueviolet;
+}
+
+.pad-left {
+    padding-left: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.right-links {
+    float: right;
+}
+.tab1 {
+    line-height: 1em;
+    padding-left: 20px;
+    font-family: Monospace;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.tab2 {
+    line-height: 1em;
+    padding-left: 40px;
+    font-family: Monospace;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.tab0 {
+    line-height: 1em;
+    font-family: Monospace;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.under {
+    text-decoration: underline gray;
+  }
+
+.variable {
+    color: cornflowerblue;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: lightyellow;
+    color: black;
+  }
